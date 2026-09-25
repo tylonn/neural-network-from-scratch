@@ -61,15 +61,3 @@ pip install -r requirements.txt
 ```bash
 python rede_neural_circulos.py
 ```
-
-Parâmetros opcionais:
-
-```bash
-python rede_neural_circulos.py --epochs 3000 --learning-rate 0.1 --samples 300
-```
-
-Para executar apenas a versão manual, sem TensorFlow/Keras:
-
-```bash
-python rede_neural_circulos.py --skip-keras
-```
