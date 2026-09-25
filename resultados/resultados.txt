@@ -1,0 +1,21 @@
+RESULTADOS DO PROJETO
+=====================
+
+Arquitetura manual: 2 -> 4 -> 3 -> 1
+Ativações: tanh -> tanh -> sigmoid
+Loss: binary cross-entropy
+Épocas: 2500
+Taxa de aprendizado: 0.1
+
+Rede manual (NumPy):
+  loss treino: 0.011860
+  acurácia treino: 100.00%
+  loss teste: 0.009606
+  acurácia teste: 100.00%
+  maior erro relativo no gradient check: 2.907e-10
+
+Rede equivalente em Keras:
+  loss treino: 0.010095
+  acurácia treino: 100.00%
+  loss teste: 0.011877
+  acurácia teste: 100.00%
